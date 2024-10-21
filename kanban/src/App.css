@@ -1,0 +1,103 @@
+.App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #0079bf;
+    text-align: center;
+}
+
+.new-sprint-container, .new-task-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input{
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: 1px solid #0079bf;
+    border-radius: 5px;
+    flex-grow: 1;
+}
+
+.button{
+    padding: 10 15px;
+    background-color: #0079bf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #005a8c;
+}
+
+.sprints-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.sprint {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  padding: 10px;
+  transition: transform 0.2s;
+  max-width: 100%;
+}
+
+.sprint:hover{
+    transform: scale(1.02);
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    padding: 5px;
+    margin: 5px;
+    background-color: #e7eff4;
+    border-radius: 5px;
+}
+
+h4{
+    text-align: center;
+}
+
+.task {
+    background-color: #e2e4e5;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    transition: background-color 0.2s;
+}
+
+.task:hover{
+    background-color: #d0d3d4;
+}
+
+.task-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.select {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #0079bf;
+    border-radius: 20px;
+}
